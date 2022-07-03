@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Usuario</title>
+    </head>
+    <body>
+        <h1>Usuário</h1>
+
+        <nav>
+            <a href="/">Homepage</a>
+            <a href="/usuarios">Listar usuários</a>
+        </nav>
+
+        <div>
+            <% if(usuario){ %>
+            <div>
+                <img
+                    src="/uploads/<%- usuario.image %>"
+                    alt="<%- usuario.nome %> "
+                />
+                <h2><%- usuario.nome %></h2>
+                <h2><%- usuario.email %></h2>
+            </div>
+            <%}else{%> <%- erro %> <% } %>
+        </div>
+    </body>
+</html>

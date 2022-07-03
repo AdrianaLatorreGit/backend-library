@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=h1, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Listar Usuários</h1>
+
+        <nav>
+            <a href="/">Homepage</a>
+        </nav>
+
+        <div>
+            <% if(usuarios.length){%> <% usuarios.forEach(usuario=>{%>
+            <div>
+                <p>Nome: <%- usuario.nome %></p>
+                <p>Nome: <%- usuario.email %></p>
+
+                <a href="/usuario/<%- usuario.id %> ">Descrição</a>
+            </div>
+            <% }) %> <% } else { %>
+            <p>Nenhum usuário cadastrado</p>
+            <% } %>
+        </div>
+    </body>
+</html>
