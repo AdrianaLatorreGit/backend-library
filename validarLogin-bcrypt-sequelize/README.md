@@ -35,4 +35,4 @@ Instalar o drive do banco de dados
 ### npm install --save mysql2
 
 Criar a base de dados
-### CREATE DATABASE celke CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+### CREATE DATABASE users CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
