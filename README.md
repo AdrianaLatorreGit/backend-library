@@ -1,3 +1,3 @@
 # backend-library
 
-Library for personal search.
+Library to find back-end codes
