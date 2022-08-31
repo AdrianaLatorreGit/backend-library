@@ -1,0 +1,6 @@
+<%- include('./partials/header', {title: "Criar produto"}) %>
+   <h1>Deletar produto</h1>
+   <form action="/products/delete/<%= productId %>?_method=delete" method="post">
+      <button type="submit"> Deletar produto <%= productId %> </button>
+   </form>
+<%- include('./partials/footer') %>

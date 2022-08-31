@@ -1,0 +1,15 @@
+<%- include('./partials/header', {title: "Criar produto"}) %>
+   <h1>Criar produto</h1>
+   <form action="/products/create1234" method="get">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+
+        <label for="price">Preço</label>
+        <input type="text" name="price" id="price">
+
+        <label for="brand">Marca</label>
+        <input type="text" name="brand" id="brand">
+        <button type="submit"> Criar produto </button>
+
+   </form>
+<%- include('./partials/footer') %>

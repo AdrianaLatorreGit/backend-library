@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 13 Preto",
+        "slug": "iphone-13-preto",
+        "brand": "Apple",
+        "year": 2021,
+        "memory": "128gb",
+        "description": "Smartphone Apple Iphone 13 IOS Preto",
+        "color": "preto",
+        "relationedProducts": [2, 3],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/apple-iphone-13-128gb-meia-noite-tela-61-12mp-ios/magazineluiza/234661800/a57c1ab14765ab0b7ca87de98ba94b94.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Iphone 13 Rosa",
+        "slug": "iphone-13-rosa",
+        "brand": "Apple",
+        "year": 2021,
+        "memory": "128gb",
+        "description": "Smartphone Apple Iphone 13 IOS Rosa",
+        "color": "rosa",
+        "relationedProducts": [1, 3],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/apple-iphone-13-128gb-rosa-tela-61-12mp-ios/magazineluiza/234662000/62f1963b9dc397e6f317ae4fb8388f8e.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Iphone 13 Vermelho",
+        "slug": "iphone-13-vermelho",
+        "brand": "Apple",
+        "year": 2021,
+        "memory": "128gb",
+        "description": "Smartphone Apple Iphone 13 IOS Vermelho",
+        "color": "vermelho",
+        "relationedProducts": [1, 2],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/apple-iphone-13-128gb-product-red-tela-61-12mp-ios/magazineluiza/234662100/98491bfa9e426d2b1368b5bd344068a4.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Galaxy S22 Ultra",
+        "slug": "galaxy-s22-ultra",
+        "brand": "Samsung",
+        "year": 2022,
+        "memory": "256gb",
+        "description": "Smartphone Galaxy S22 Ultra",
+        "color": "black",
+        "relationedProducts": [5, 6, 7],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/smartphone-samsung-galaxy-s22-ultra-256gb-preto-5g-12gb-ram-68-cam-quadrupla-selfie-40mp/magazineluiza/234440600/c7fb3017de29e7d6fb8b046e372e8e23.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Galaxy S22 Plus",
+        "slug": "galaxy-s22-plus",
+        "brand": "Samsung",
+        "year": 2022,
+        "memory": "256gb",
+        "description": "Smartphone Galaxy S22 Plus",
+        "color": "rosa",
+        "relationedProducts": [4, 6, 7],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/smartphone-samsung-galaxy-s22-128gb-rose-8gb-ram-tela-66-cam-tripla-selfie-10mp/magazineluiza/234439400/55250d6ccb6f1bc2733bae6424e73444.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Galaxy S22",
+        "slug": "galaxy-s22",
+        "brand": "Samsung",
+        "year": 2022,
+        "memory": "128gb",
+        "description": "Smartphone Galaxy S22",
+        "color": "verde",
+        "relationedProducts": [4, 5, 7],
+        "imageUrl": "https://a-static.mlcdn.com.br/618x463/smartphone-samsung-galaxy-s22-128gb-verde-5g-8gb-ram-tela-61-cam-tripla-selfie-10mp/magazineluiza/234437600/c73eebb1968ed2bd0e260488fe886f39.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Galaxy A30",
+        "slug": "galaxy-a30",
+        "brand": "Samsung",
+        "year": 2021,
+        "memory": "64gb",
+        "description": "Smartphone Galaxy A30",
+        "color": "preto",
+        "relationedProducts": [4, 5, 6],
+        "imageUrl": "https://imagens.trocafone.com/images/phones/dt-galaxy-a30-preto-front.png"
+    }
+]
