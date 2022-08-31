@@ -1,0 +1,15 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 20rem;
+}
+
+.meal_ingredients_list {
+    background-color: aqua;
+}
