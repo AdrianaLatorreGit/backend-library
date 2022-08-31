@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+img {
+    height: 200px;
+}
+
+ul img {
+    height: 50px;
+}
+header {
+    background-color: #0060B1;
+    height: 110px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #0060B1;
+    height: 300px;
+    position: absolute;
+    bottom: -300px;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

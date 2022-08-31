@@ -1,0 +1,19 @@
+<%- include('./partials/header', {title: "Produto | " + name}) %>
+    <h1><%= name%></h1>
+    <p>Marca: <%= brand%> </p>
+    <p>Ano: <%= year%> </p>
+    <p>Memória: <%= memory%> </p>
+    
+
+    <img src="<%= imageUrl%>" alt="">
+    <h2>Produtos relacionados</h2>
+    <ul>
+        <%for(let relationedProduct of relationedProductsFull){%>
+            <li>
+                <div>
+                    <%= relationedProduct.name%> - <%= relationedProduct.brand%></li>
+                    <img src="<%= relationedProduct.imageUrl%>" alt="<%= relationedProduct.name%>">
+                </div>
+        <%}%>
+    </ul>
+<%- include('./partials/footer') %>

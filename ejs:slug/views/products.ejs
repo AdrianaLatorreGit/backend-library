@@ -1,0 +1,11 @@
+<%- include('./partials/header') %>
+    <h1>Produtos</h1>
+    <ul>
+        <%for(let product of products){%>
+            <div>
+                <li><%= product.name%> - <%= product.brand%></li>
+                <img src="<%= product.imageUrl%>" alt="Imagem de um <%= product.name%>">
+            </div>
+        <%}%>
+    </ul>
+<%- include('./partials/footer') %>   
