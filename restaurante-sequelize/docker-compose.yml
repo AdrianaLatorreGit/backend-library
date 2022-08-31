@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  database:
+    image: mysql
+    env_file:
+      - .env
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    ports:
+      - '3306:3306'
+    volumes:
+      - /home/$USER/Docker/volumes/restaurante:/var/lib/mysql
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
