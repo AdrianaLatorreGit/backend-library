@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head.ejs") %>
+<body>
+    <div class="container">
+        <% pet.forEach(produto => { %>
+        <div class="produto">
+            <p><%= produto.nome %></p>
+            <p><%= produto.marca %></p>
+            <p><%= produto.preco %></p>
+        </div>
+</body>
+</html>
