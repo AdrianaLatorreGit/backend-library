@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head.ejs") %> 
+    <%- include("./partials/header.ejs")%> 
+    <% usuarios.forEach(usuario => { %>
+    <a href="/<%= usuario.nome %> "><%= usuario.nome %></a>
+
+    <% }); %>
+     <%- include("./partials/footer.ejs") %>
+</html>
