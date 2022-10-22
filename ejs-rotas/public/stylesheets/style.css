@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    gap: 30px;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.produto {
+    border: 3px solid red;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+.produto p {
+    font-size: 50px;
+    color: blue;
+}

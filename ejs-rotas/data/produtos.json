@@ -1,0 +1,28 @@
+[
+    {
+        "nome":"Tv",
+        "marca":"Samsung",
+        "preco":2000
+    },
+    {
+        "nome":"Monitor",
+        "marca":"LG",
+        "preco":526
+    },
+    {
+        "nome":"notebook",
+        "marca":"Apple",
+        "preco":20000
+    },
+    {
+        "nome":"mouse",
+        "marca":"Apple",
+        "preco":1000
+    },
+    {
+        "nome":"teclado",
+        "marca":"LG",
+        "preco":500
+    }
+
+]
