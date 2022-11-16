@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('./partials/head.ejs') %>
+    <body>
+        <%- include ('./partials/header.ejs') %>
+
+        <h1>Livros</h1>
+
+        <div class="livros">
+            <% if (livros !== null) { %> <% livros.forEach(livro => { %>
+            <div class="livro">
+                <div class="livro__img">
+                    <img src="<%- livro.capaImg %>" alt="<%- livro.titulo %>" />
+                </div>
+
+                <h3><%- livro.titulo.toUpperCase() %></h3>
+                <p><%- livro.autor %></p>
+
+                <% if(livro.promocao){ %>
+                <div>
+                    <span class="promo">R$<%- livro.preco.toFixed(2) %> </span>
+                    <span class="preco-promocional"
+                        >R$<%- livro.precoPromocional.toFixed(2) %>
+                    </span>
+                </div>
+
+                <% } else{%>
+                <span>R$ <%- livro.preco.toFixed(2) %> </span>
+                <% }%>
+
+                <p>
+                    <a href="/livros/descricao/<%- livro.id %> "
+                        >Ver detalhes</a
+                    >
+                </p>
+            </div>
+            <% }) %> <% } else { %>
+            <h3>Livros não encontrados</h3>
+            <% } %>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="/">Voltar</a></li>
+            </ul>
+        </nav>
+
+        <%- include ('./partials/footer.ejs') %>
+        <script src="/js/main.js"></script>
+    </body>
+</html>

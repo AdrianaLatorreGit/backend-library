@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('./partials/head.ejs') %>
+    <body>
+        <%- include ('./partials/header.ejs') %>
+
+        <h1><%- livro.titulo.toUpperCase() %></h1>
+
+        <p><%- livro.descricao %></p>
+
+        <a href="/livros">Voltar</a>
+
+        <%- include ('./partials/footer.ejs') %>
+
+        <script src="/js/main.js"></script>
+    </body>
+</html>
