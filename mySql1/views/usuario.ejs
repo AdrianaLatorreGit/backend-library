@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+           
+       <% if(usuario !== undefined){%>
+        <h1>Usuário <%- usuario.id %> </h1>
+        <p>Nome: <%- usuario.nome %></p>
+        <p>Idade: <%- usuario.idade %></p>
+        <p>Email: <%- usuario.email %></p> 
+
+
+        <% }else{ %>
+            <h3>Usuário não existe</h3>
+            <% } %>
+                   
+             
+          
+        <nav>
+            <a href="/">&#8592 Voltar</a>
+            <br>
+            <a href="/usuarios">&#8592 Listar Usuários</a>
+        </nav>
+    </body>
+</html>
