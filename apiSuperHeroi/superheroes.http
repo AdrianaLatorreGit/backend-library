@@ -1,0 +1,26 @@
+POST http://localhost:3030/superheroes HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Kal-el",
+    "alias" : "Superman"
+}
+
+# !para separar
+###
+
+GET http://localhost:3030/superheroes HTTP/1.1
+
+###
+
+PUT  http://localhost:3030/superheroes/d4e81da8-0e56-4526-947f-2696c2a8521c HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Clark Kent",
+    "alias" : "Superman"
+}
+
+###
+
+DELETE http://localhost:3030/superheroes/d4e81da8-0e56-4526-947f-2696c2a8521c HTTP/1.1
